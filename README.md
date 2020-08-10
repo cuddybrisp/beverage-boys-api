@@ -1,23 +1,16 @@
-# Application Title: A Description
+# Beverage Boys:
 
-This application allows the user to do x, y, and z. Maybe here's a reason why I
-wanted to do this project, or came up with this idea.
+The basis of the application is to keep track of your beverages, in the future more precise metrics can be used and we can make sure you're staying hydrated.
 
 ## Important Links
 
-- [Other Repo](www.link.com)
+- [Front End Repo](https://github.com/cuddybrisp/beverage-boys-fe/)
 - [Deployed API](www.link.com)
 - [Deployed Client](www.link.com)
 
 ## Planning Story
 
-Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin
-coffee williamsburg af poutine fingerstache austin semiotics paleo man braid
-vexillologist. Tumeric literally banjo pickled disrupt cold-pressed thundercats
-shoreditch try-hard health goth intelligentsia pop-up small batch skateboard
-farm-to-table. Meh tofu fam, direct trade tattooed stumptown etsy everyday
-carry activated charcoal. Neutra cornhole polaroid literally salvia, listicle
-tofu.
+I wasnt sure what exactly I'd want my application to track, but I have always been the type of person who has a multitude of open drinks around the house, so it was time to keep track of all of them
 
 ### User Stories
 
