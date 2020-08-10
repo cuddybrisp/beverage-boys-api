@@ -6,10 +6,10 @@ const beverageSchema = new mongoose.Schema({
     required: true
   },
   finished: {
-    type: Boolean
+    type: String
   },
   ounces: {
-    type: Number,
+    type: String,
     required: true
   },
   owner: {

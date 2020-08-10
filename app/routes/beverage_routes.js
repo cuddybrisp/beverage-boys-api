@@ -19,10 +19,10 @@ const router = express.Router()
 // index
 router.get('/beverages', requireToken, (req, res, next) => {
   Beverage.find()
-    .then(beverages => {
-      return beverages.map(beverage => beverage.toObject())
+    .then(beverage => {
+      return beverage.map(beverage => beverage.toObject())
     })
-    .then(beverages => res.status(200).json({ beverages: beverages }))
+    .then(beverage => res.status(200).json({ beverage: beverage }))
     .catch(next)
 })
 
