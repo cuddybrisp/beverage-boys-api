@@ -18,7 +18,7 @@ const router = express.Router()
 
 // index
 router.get('/beverages', requireToken, (req, res, next) => {
-  Beverage.find()
+  Beverage.find({ owner: req.user.id })
     .then(beverage => {
       return beverage.map(beverage => beverage.toObject())
     })
