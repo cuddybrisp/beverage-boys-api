@@ -5,12 +5,12 @@ The basis of the application is to keep track of your beverages, in the future m
 ## Important Links
 
 - [Front End Repo](https://github.com/cuddybrisp/beverage-boys-fe/)
-- [Deployed API](www.link.com)
-- [Deployed Client](www.link.com)
+- [Heroku App URL](https://mysterious-headland-69458.herokuapp.com/)
+- [Client](https://cuddybrisp.github.io/beverage-boys-fe/)
 
 ## Planning Story
 
-I wasnt sure what exactly I'd want my application to track, but I have always been the type of person who has a multitude of open drinks around the house, so it was time to keep track of all of them
+I wasnt sure what exactly I'd want my application to track, but I have always been the type of person who has a multitude of open drinks around the house, so it was time to keep track of all of them, timing plan: wanting to start with my backend, because i have curl scripts already fleshed out that can be tested through the terminal, and i have that example schema to grow from, then move on to my auth steps and begin putting together my HTML for the forms that can be filled by the user. And keep styling from there. Will use my new knowledge of handlebars, as well as Promises and models in the backend.
 
 ### User Stories
 
@@ -27,18 +27,22 @@ I wasnt sure what exactly I'd want my application to track, but I have always be
 - HTML/CSS
 - Bootstrap
 - Javascript
+- mongoose
+- express
+- heroku app
 
 ### Unsolved Problems
 
-- Still need to ....
-- Would like to eventually ....
+- Still need to add some styling to make the UX more appealing, and get a better understanding of the technologies used here.
+- Would like to eventually be able to calculate the contents of your drinks to see if you're staying hydrated.
+
 
 ## Images
 
 #### Wireframe:
-![wireframe](https://lucidchart.zendesk.com/hc/article_attachments/360001080866/Facebook_Wireframe_-_New_Page.png)
+![wireframe](https://imgur.com/IfiHUND)
 
 ---
 
 #### ERD:
-![ERD](https://www.smartdraw.com/entity-relationship-diagram/img/cardinality.jpg?bn=1510011144)
+![ERD](https://imgur.com/ejK6dsJ)
