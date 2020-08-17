@@ -1,0 +1,18 @@
+#!/bin/bash
+
+API="http://localhost:4741"
+URL_PATH="/snacks"
+
+curl "${API}${URL_PATH}" \
+  --include \
+  --request POST \
+  --header "Content-Type: application/json" \
+  --header "Authorization: Bearer ${TOKEN}" \
+  --data '{
+    "snack": {
+      "name": "'"${NAME}"'",
+      "servings": "'"${SERVINGS}"'"
+    }
+  }'
+
+echo
