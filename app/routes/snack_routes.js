@@ -14,7 +14,7 @@ router.get('/snacks', requireToken, (req, res, next) => {
     .then(snack => {
       return snack.map(snack => snack.toObject())
     })
-    .then(snack => res.status(200).json({ snack: snack.toObject() }))
+    .then(snack => res.status(200).json({ snack: snack }))
     .catch(next)
 })
 // show
@@ -27,6 +27,7 @@ router.get('/snacks/:id', requireToken, (req, res, next) => {
 
 // create
 router.post('/snacks', requireToken, (req, res, next) => {
+  console.log(req.body.snack)
   req.body.snack.owner = req.user.id
   Snack.create(req.body.snack)
     .then(snack => {
